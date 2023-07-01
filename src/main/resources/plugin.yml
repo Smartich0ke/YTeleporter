@@ -1,0 +1,15 @@
+name: YTeleporter
+version: '${project.version}'
+main: com.nikolaipatrick.yteleporter.YTeleporter
+api-version: '1.20'
+prefix: YTeleporter
+authors: [ Artichoke ]
+description: a plugin that teleports a player up X blocks every X minutes
+website: nikolaipatrick.com
+commands:
+  start-teleporter:
+    description: Starts the teleporter
+    usage: /<command>
+  stop-teleporter:
+    description: Stops the teleporter
+    usage: /<command>
